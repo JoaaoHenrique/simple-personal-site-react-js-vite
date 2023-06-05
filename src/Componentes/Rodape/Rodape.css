@@ -1,0 +1,18 @@
+footer{
+    background-color: #301347;
+    padding: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  @media only screen and (max-width:535px) {
+    footer{
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (max-width:366px){
+    footer{
+      font-size: 11px;
+    }
+  }

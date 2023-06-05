@@ -1,0 +1,42 @@
+nav {
+    background-color: #A877D0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    color: #000;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+
+nav li {
+    display: inline;
+    font-size: x-large;
+    margin: 25px;
+}
+
+@media only screen and (max-width:1407px) {
+
+    nav ul li {
+        display: inline;
+        margin: 10px;
+        font-size: large;
+    }
+
+    nav ul {
+        padding: 0px;
+    }
+
+}
+
+@media only screen and (max-width:330px){
+    nav ul li {
+        margin: 10px;
+        font-size: 14px;
+    }
+}

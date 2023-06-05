@@ -1,0 +1,33 @@
+body {
+  margin: 0%;
+}
+
+h1.tittle {
+  text-decoration: underline;
+  letter-spacing: 5px;
+  font-size: 70px;
+  font-family: 'Work Sans', sans-serif;
+  color: #000;
+}
+
+.button {
+  border: 0;
+  color: #000;
+  padding: 16px;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #301347;
+}
+
+.invalid {
+  border: 2px solid red;
+}
+
+@media only screen and (max-width:366px) {
+  h1.tittle {
+    font-size: 42px;
+  }
+}

@@ -1,0 +1,25 @@
+.item-portfolio {
+    background-color: #A877D0;
+    display: inline-block;
+    margin: 60px;
+    border: 1px solid #000;
+}
+
+.item-portfolio a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.item-portfolio img {
+    width: 250px;
+    height: 300px;
+}
+
+@media only screen and (max-width:372px) {
+    .item-portfolio img {
+        width: 196px;
+        height: 270px;
+        margin: 38px;
+    }
+}

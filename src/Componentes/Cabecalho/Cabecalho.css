@@ -1,0 +1,41 @@
+header {
+    background-color: #301347;
+    padding: 190px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+header img {
+    height: 400px;
+    display: flex;
+    float: left;
+    margin-top: -105px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:1407px) {
+
+    header {
+        padding: 50px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+
+    header img {
+        height: 150px;
+        display: inline;
+        float: none;
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width:366px){
+    header {
+        font-size: 8px;
+    }
+    
+}

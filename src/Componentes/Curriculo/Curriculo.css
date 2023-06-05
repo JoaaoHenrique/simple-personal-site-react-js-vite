@@ -1,0 +1,15 @@
+section {
+    margin: 50px;
+    padding: 50px;
+    color: #000;
+    background-color: #A877D0;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 20px;
+  }
+  
+  @media only screen and (max-width:710px){
+      section {
+          margin: 15px;
+          padding: 15px;
+        }
+  }
